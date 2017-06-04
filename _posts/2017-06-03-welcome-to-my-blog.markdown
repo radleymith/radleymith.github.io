@@ -12,6 +12,6 @@ At this point in time I think the blog will mostly consist of a few things:
 - Reviews of materials I've read
 - General thoughts about software engineering, team structures, architecture, and how to be successful. (TBH I don't know if I can really consider myself successful so take any of that talk with a grain of salt)
 
-Having said that, if anyone reads this and has suggestions for reading material or really anything else [email me](radley.mith@gmail.com).
+Having said that, if anyone reads this and has suggestions for reading material or really anything else [email me](mailto:radley.mith@gmail.com).
 
 Enjoy!
