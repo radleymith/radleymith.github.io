@@ -1,0 +1,10 @@
+#!/bin/bash
+
+Message="$1"
+
+echo "build then add then commit then push"
+
+jeykll build
+git add .
+git commit -m "$Message"
+git push
