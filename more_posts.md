@@ -1,4 +1,3 @@
 ---
-title: Posts
-permalink: /index/
+permalink: /
 ---
