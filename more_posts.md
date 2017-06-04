@@ -1,7 +1,4 @@
 ---
-layout: page
-title: Stuff
-permalink: /stuff/
+title: Posts
+permalink: /index/
 ---
-
-just diddling
