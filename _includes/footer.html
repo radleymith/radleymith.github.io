@@ -15,7 +15,9 @@
             {% endif %}
           </li>
             {% if site.email %}
-              <li><a href="mailto:{{ site.email }}">Email</a></li>
+              <li>
+                {% include icon-email.html email=site.email %}
+              </li>
             {% endif %}
             {% if site.github_username %}
               <li>
