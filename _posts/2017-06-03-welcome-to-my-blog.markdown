@@ -3,6 +3,7 @@ layout: post
 title:  "First!"
 date:   2017-06-03 17:24:07 -0700
 categories: First Post
+comments: true
 ---
 This is going to be almost the same as the about page.  New job for some reason equals new blog, partly because I have no one to hang out with in a new city right now and partly because I've always wanted to have a blog.  With the new job I envision myself having a lot of challenges, and probably seeming like a dummy in office for a little while, but that's okay as long as I don't stay a dummy. 
 
