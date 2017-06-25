@@ -8,7 +8,7 @@ comments: true
 ## Problem Statement
 This came about because I'm working in an environment where a lot of false positives are thrown as dependency conflicts.  So the problem is that I get dependency conflicts, a lot of them, when I include a new library and this causes the build to fail.  So I'm trying to minimize the use of dependencies that aren't vital.
 
-##Setup
+## Setup
 This is for a React app not using Redux.  Redux is awesome!!!, but sometimes not necessary.
 
 ## The test
@@ -37,7 +37,7 @@ Now when that test is run it will mount the wrapper.  Then it will set the state
 
 Now you may ask, "But if I'm changing the state why won't I just test the state immediately after the function runs."  Well you could try but it won't work.  The state updates asynchronously so if you try and pull that instances state it will look just like it did before the function you are testing ran and not what you were expecting the state to be.  This will cause the test to fail incorrectly.  Once react picks up the state change, it will re-render the component and then you can safely check the state inside the render function.
 
-##Disclaimer
+## Disclaimer
 This is a naive solution to my problem statement.  The better solution would be to find a better build system or augment the one I'm using to stop the false positive dependency conflicts.
 
 Also this solution is good for smaller apps where you don't really need all of the bells, whistles, and overhead that come along with TestDouble and especially Sinon.
