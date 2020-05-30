@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Clean AWS Development: Building a moat"
+date:   2020-05-29 23:04:20 -0700
+categories: CleanAWS ThinkingAboutDIP
+comments: true
+---
+
+## Rip and Marty thinking about dependency inversion...
+
+![wizard rip](/assets/images/wizard_rip_intro.jpg)
+
+"I don't get it Rip, why do we have to do all of this extra work for the dependency inversion principal?  Why can't we just write code the way we want to?  This seems stupid, I don't even know how to conceptualize DIP yet I just want things to work."
+
+"Because Marty DIP is important.  That's why I'm a wizard Marty because I know things that you can barely wrap your brain around.  Let me tell it to you like this: suppose you're a king Marty and you want a castle and you want it to do things so that you can have a pfeifdom and rule over it effectively but without doing too much work because if you have to work all the time whats the point. If you're a king you want to be eating grapes not working.  So anyways, you build your castle and its great and everyone wants in.  But you don't want to let everyone in, because the peasants Marty, the peasants, they have complaints, and jobs for you, and want you to do things because you tax them because you're a KING.  But you don't want to do that, cause you want to work on your castle, after all its your legacy, not the peasants and their complaints. But if they're there then you have to listen to them, cause they won't leave until you do.  So what do you do Marty?  You build a moat, a big ass moat! One thats too big to swim across so you can only go to the castle using the drawbridge, but haha! the drawbridge is always up and they can't get to it. So then you're life as king is good, you build that castle Marty, straight up into the sky, better than any castle thats been built before or after, and once a year you let the drawbridge down and listen to the complaints of the peasants and do jobs for them, and you know what Marty?  They're equally as pleased as if you were doing it all the time, because they're peasants Marty, they don't actually know any better. Their life is about groveling and asking you to do things for them but deep down they don't actually care whether you do or you don't it just gives them something to do."
+
+"So, do you get it now?  Do you get why DIP is so important?  It's because the castle is your Common and Core packages, the BUSINESS LOGIC MARTY, yeah the business logic, the secret sauce that will make you a millionaire, err wizard whatever. The moat is the Adapters and Persistence packages and all of their interfaces.  THE INTERFACES INSULATE YOU MARTY, from the pains of the world, and the tribulations of the peasants.  You can work on your business Marty, your business, the thing you really care about, almost all of the time.  And you can have 100% unit test code coverage, I mean it doesn't have to be a dogmatic 100% but maybe like a 95% coverage is kind of easy to attain because you own all of the code in Common and Core Marty.  And this is important! Because if you ever do comprehend this and become a wizard in the castle Marty, you're going to want to cast spells with your code, and you want them to work, and be consistent, and predictable, and take you where you want to go. Cause you don't want to cast a spell trying to turn a dog into a cow and then have it be a lion and eat you Marty cause that would suck!"
+
+![lion mooing](/assets/images/lion_moo.jpg)
+
+"And back to the trials and tribulations, I really hope you get it now.  I'm talking about dependency management, and legacy code, and rot, and version conflicts, and all of the things that nobody really wants to deal with but has too.  What if you could just only deal with them one time instead of all the time.  Wouldnt that be great?  Because its possible, because thats what all of those things are.  They're the peasants complaints, so you know, now that you've built up the moat around Common and Core you really don't have to worry about all of the peasant stuff until you put it together in the Head package, and that's awesome cause its a one time thing.  One time at the very edge of the code base, do you venture out into your greater pfiefdom and talk with the commoners and you solve their problems that day and then you go back to your castle and feel good about yourself and never need to do it again really."
+
+#### castle and moat picture coming soon

@@ -2,7 +2,7 @@
 layout: post
 title:  "Clean AWS Development: Hello World!"
 date:   2020-05-25 09:06:07 -0700
-categories: Java, Clean Code, AWS, JavaScript, Internet, Blogs
+categories: CleanAWS Hello
 comments: true
 ---
 
